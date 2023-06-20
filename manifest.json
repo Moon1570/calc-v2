@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Calc Miles",
+    "description": "A handy calculator for miles",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "png-transparent-calculator-ios-glyphs-icon.png"
+    }
+  }

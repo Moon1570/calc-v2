@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Calc</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="popup.css">
+    <script src="script.js"></script>
+
+</head>
+<body class="container">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Flight Calc</a>
+        </nav>
+      </div>
+
+    <div class="row">
+        <div class="col">
+            <label for="program">Program</label>
+            <input  class="form-control" type="text" id="program" placeholder="">
+        </div>
+        <div class="col">
+            <label for="miles">Miles</label>
+            <input class="form-control" type="number" id="miles" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="tax">TAX</label>
+            <input class="form-control" type="number" id="tax" placeholder="">
+        </div>
+        <div class="col">
+            <label for="pax">PAX</label>
+            <input class="form-control" type="number" id="pax" value="1" min="1">
+        </div>
+    </div>
+
+<hr>
+    
+    <button class="btn btn-outline-dark" id="myButton">Calculate</button>
+<br>
+    <span id="result"></span> 
+    <span id="result2"></span>
+    <br>
+    <span id="allpax"></span> 
+    <span id="allpax2"></span>
+
+    <h3>Rate Table</h3>
+
+<div id="json" width="50%"></div>
+
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
