@@ -27,14 +27,10 @@ function calculate(){
     tax = document.getElementById("tax").value;
     pax = parseInt(document.getElementById("pax").value);
 
-
-    // turn program to uppercase
     program = program.toUpperCase();
 
     console.log(program);
-  //  console.log(miles);
-  //  console.log(tax);
-  //  console.log(pax);
+
 
     if(program == "" || miles == ""){
         document.getElementById("result").innerHTML = "Program or Miles not found";
